@@ -9,7 +9,7 @@ function multipleOfThreeAndFive () {
 }
 
 multipleOfThreeAndFive()
-document.getElementById('answer1').innerHTML = answer1
+document.getElementById('answer1').textContent = answer1
 
 var answer2 = 0
 
@@ -28,7 +28,7 @@ function evenFibonacci () {
 }
 
 evenFibonacci()
-document.getElementById('answer2').innerHTML = answer2
+document.getElementById('answer2').textContent = answer2
 
 var answer3 = 0
 
@@ -62,9 +62,9 @@ function largestPrimeFactor (num2) {
 
 // 9999999 is the largest number for this algorithm. Any bigger and it "hangs"
 answer3 = largestPrimeFactor(9999999)
-document.getElementById('answer3').innerHTML = answer3
+document.getElementById('answer3').textContent = answer3
 
-/* Removed the images and clicking action because ir wasn't working in Chrome
+/* Removed the images and clicking action because it wasn't working in Chrome
 function showDiv (toggle) {
   document.getElementById(toggle).style.display = 'inline'
 } */
