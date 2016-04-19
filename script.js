@@ -9,7 +9,9 @@ function multipleOfThreeAndFive () {
 }
 
 multipleOfThreeAndFive()
-document.getElementById('answer1').textContent = answer1
+var span1 = document.getElementById('answer1')
+var txt = document.createTextNode(answer1)
+span1.innerText = txt.textContent
 
 var answer2 = 0
 
