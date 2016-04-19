@@ -113,3 +113,7 @@ th {
 	height: 30px;
 	width: 150px;
 }
+
+#answer1, #answer2, #answer3, #answer3text {
+  display: none;
+}

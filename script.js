@@ -61,5 +61,9 @@ function largestPrimeFactor (num2) {
 }
 
 // 9999999 is the largest number for this algorithm. Any bigger and it "hangs"
-answer3 = largestPrimeFactor(999999)
+answer3 = largestPrimeFactor(9999999)
 document.getElementById('answer3').innerHTML = answer3
+
+function showDiv (toggle) {
+  document.getElementById(toggle).style.display = 'inline'
+}
