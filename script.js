@@ -64,6 +64,7 @@ function largestPrimeFactor (num2) {
 answer3 = largestPrimeFactor(9999999)
 document.getElementById('answer3').innerHTML = answer3
 
+/* Removed the images and clicking action because ir wasn't working in Chrome
 function showDiv (toggle) {
   document.getElementById(toggle).style.display = 'inline'
-}
+} */
