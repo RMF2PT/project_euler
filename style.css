@@ -114,10 +114,9 @@ th {
 	width: 150px;
 }
 
-/* Removed the images and clicking action because it wasn't working in Chrome
 #answer1, #answer2, #answer3, #answer3text {
   display: none;
-}*/
+}
 
 img:hover {
   border: 2px solid #d9d9d9;
